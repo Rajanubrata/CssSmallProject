@@ -1,0 +1,21 @@
+<div class="left"></div>
+<div></div>
+<style>
+  body{
+    display:grid;
+    grid-template-columns: auto auto;
+    align-items:center;
+    justify-content:center;
+    background:#62306D;
+  }
+  div {
+    width: 80px;
+    height: 160px;
+    background: #F7EC7D;
+    border-radius:0 80px 0 40px;
+  }
+  .left{
+    border-radius:80px 0 40px 0;
+    background:#F7EC7D;
+  }
+</style>
