@@ -1,0 +1,34 @@
+<div class="left"></div>
+<div class="right"></div>
+<div class="bottom"></div>
+<style>
+  body{
+    display:grid;
+    align-items: center;
+    justify-content:center;
+    background:#926927;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 0 100px ;
+  }
+  .bottom{
+    transform:rotate(45deg);
+  }
+  .left{
+    position: absolute;
+    transform:rotate(-1deg);
+    background: #6D480A;
+    left:103px;
+    bottom:81px;
+  }
+  .right{
+    position: absolute;
+    transform:rotate(92deg);
+    background: #6D480A;
+    right:102px;
+    bottom:80px;
+  }
+</style>
