@@ -1,0 +1,127 @@
+<div class="L-T"></div>
+<div class="nose"></div>
+<div class="L-E"></div>
+<div class="L-shadow"></div>
+<div class="R-T"></div>
+<div class="R-E"></div>
+<div class="L-pup"></div>
+<div class="R-pup"></div>
+<div class="L-hide"></div>
+<div class="R-hide"></div>
+<div class="L-dot"></div>
+<div class="R-dot"></div>
+<style>
+  body{
+    display:grid;
+    align-items:center;
+    justify-content:center;
+    background:#191919;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #E08027;
+  }
+  .L-T{
+    position: absolute;
+    top:77px;
+    left:89px;
+    border-radius: 0 50px;
+  }
+  .R-T{
+    position: absolute;
+    top:77px;
+    right:89px;
+    border-radius: 50px 0 50px 20px;
+  }
+  .nose{
+    position: absolute;
+    width:50px;
+    height:50px;
+    transform:rotate(45deg);
+    left:175px;
+    bottom:88px;
+  }
+  .L-E{
+    background:#191919;
+    position: absolute;
+    box-sizing:borderbox;
+    border: 12px solid #E08027;
+    border-radius:50%;
+    width:90px;
+    height:90px;
+    left:88px;
+    top:77px;
+  }
+  .L-shadow {
+    position: absolute;
+    width:130;
+    height:130px;
+    left:186px;
+    top:70px;
+    background:#191919;
+    border-radius:50%;
+  }
+  .R-E{
+    background:#191919;
+    position: absolute;
+    box-sizing:borderbox;
+    border: 12px solid #E08027;
+    border-radius:50%;
+    width:90px;
+    height:90px;
+    right:88px;
+    top:77px;
+  }
+
+  .L-pup{
+    position:absolute;
+    width:30px;
+    height:30px;
+    border-radius:50% 50% 0 0 ;
+    left:131px;
+    bottom:145px;
+  }
+  .L-hide{
+    position:absolute;
+    width:30px;
+    height:15px;
+    background:#191919;
+    left:131px;
+    bottom:145px;
+  }
+  .R-pup{
+    position:absolute;
+    width:30px;
+    height:30px;
+    border-radius:50% 50% 0 0 ;
+    right:131px;
+    bottom:145px;
+  }
+    .R-hide{
+    position:absolute;
+    width:30px;
+    height:15px;
+    background:#191919;
+    right:131px;
+    bottom:145px;
+  }
+  .L-dot{
+    position:absolute;
+    background:#191919;
+    width:12px;
+    height:11px;
+    border-radius:50%;
+    left:141px;
+    bottom:155px;
+  }
+  .R-dot{
+    position:absolute;
+    background:#191919;
+    width:12px;
+    height:11px;
+    border-radius:50%;
+    right:141px;
+    bottom:155px;
+  }
+</style>
