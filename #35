@@ -1,0 +1,31 @@
+<div class="ice"></div>
+<div class="stic"></div>
+<style>
+  body{
+    background:#293462;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+  }
+  div {
+    width: 100px;
+    height: 150px;
+    background: #FE5F55;
+  }
+  .ice{
+    position:absolute;
+    left:150px;
+    bottom:100px;
+    border-radius: 60px 60px 25px 25px;
+    background:#FFF1C1;
+  }
+  .stic{
+    height:40px;
+    width:30px;
+    position:absolute;
+    border-top:10px solid #A64942;
+    left:185px;
+    bottom:50px;
+    border-radius: 0 0 10px 10px;
+  }
+</style>
