@@ -1,0 +1,44 @@
+<div class="o"></div>
+<div class="o w1"></div>
+<div class="o w1 w2"></div>
+<div class="o w1 w3"></div>
+<div class="d"></div>
+<style>
+  body{
+    background:#191919;
+    display:flex;
+  }
+  div {
+    width: 40px;
+    height: 40px;
+    background: #dd6b4d;
+    background:transparent;
+  }
+  .o{
+    border-radius:50%;
+    position:absolute;
+    top:122px;
+    left:37px;
+    border:20px solid #714B67;
+  }
+  .w1{
+    left:119px;
+    border:20px solid #8F8F8F;
+  }
+  .w2{
+    left:200px;
+  }
+  .w3{
+    left:283
+  }
+  .d{
+    background:#8F8F8F;
+    width:20px;
+    height:58px;
+    border-radius:10px 10px 0 0 ;
+    position:absolute;
+    left:180px;
+    bottom:140px;
+  }
+</style>
+
