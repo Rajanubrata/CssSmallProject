@@ -1,0 +1,38 @@
+<div class="round"></div>
+<div class="box1"></div>
+<div class="box2"></div>
+<style>
+  body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(#D25B70 50%,#6CB3A9 50%);
+  }
+  div{
+    width:100px;
+    height:100px;
+    background:black;
+  }
+  .round {
+    width: 200px;
+    height: 200px;
+    background: #F6DF96;
+    border-radius:50%;
+  }
+  .box1{
+    position:absolute;
+    top:150px;
+    height:15px;
+    width:200px;
+    box-shadow: 0px 25px #6CB3A9;
+    background:#6CB3A9;
+  }
+  .box2{
+    position:absolute;
+    top:200px;
+    height:15px;
+    width:200px;
+    box-shadow: 0px 25px #6CB3A9;
+    background:#6CB3A9;
+  }
+</style>
