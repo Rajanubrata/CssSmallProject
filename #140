@@ -1,0 +1,37 @@
+<div class="mountain"></div>
+<div class="moon"></div>
+<div class="half-moon"></div>
+<style>
+  body{
+    background:#4F77FF;
+  }
+  .mountain{
+    position:absolute;
+    transform:rotate(45deg);
+    left:87px;
+    bottom:-115px;
+    width:229px;
+    height:229px;
+    background:#1038BF;
+  }
+  .moon{
+    height:80px;
+    width:80px;
+    background:#FFFFFF;
+    border-radius:50%;
+    position:absolute;
+    left:160px;
+    top:50px;
+    z-index:-1;
+  }
+  .half-moon{
+    height:80px;
+    width:80px;
+    background:#4F77FF;
+    border-radius:50%;
+    position:absolute;
+    left:160px;
+    top:90px;
+    z-index:-1;
+  }
+</style>
