@@ -1,0 +1,38 @@
+<div class="top"></div>
+<div class="bud-r"></div>
+<div class="bud-l"></div>
+<style>
+  body{
+    background:#293D7E
+  }
+  .top{
+    position:absolute;
+    top:45px;
+    left:115px;
+    width:130px;
+    height:180px;
+    border:20px solid #6E91CA;
+    border-radius:90px 90px 30px 30px ;
+    border-bottom: none;
+    background:transparent;
+  }
+  .bud-r{
+    height:80px;
+    width:55px;
+    background:#6E91CA;
+    position:absolute;
+    left:120px;
+    top:165px;
+    border-radius:0px 20px 30px ;
+  }
+  .bud-l{
+    height:80px;
+    width:55px;
+    background:#6E91CA;
+    position:absolute;
+    right:120px;
+    top:165px;
+    border-radius:20px 30px 20px;
+  }
+</style>
+
